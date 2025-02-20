@@ -1,0 +1,11 @@
+numpy
+torch
+soundfile
+scikit-learn
+tqdm
+tensorboard
+wget
+matplotlib
+librosa
+timm==0.4.5
+torchaudio
