@@ -9,39 +9,9 @@
 - Low-Resource Music Genre Classification with Advanced Neural Model Reprogramming. 
 - Yun-Ning Hung, Chao-Han Huck Yang, Pin-Yu Chen, and Alexander Lerch
 
-## Codebase
+# Music Repro
 
-1. Download GTZAN dataset: https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download
-
-2. unzip and move file:
-
-```
-unzip archive.zip
-mv Data/genres_original/* music-repro/data/
-```
-
-3. Install Dependencies
-```
-pip3 install -r requirement.txt
-```
-
-4. Pull pre-trained models
-```
-git lfs fetch --all
-```
-
-
-5. run experiment (skip to "7" for inference only)
-
-```
-python3 main.py --reprog_front uni_noise
-
-python3 main.py --reprog_front condi
-
-python3 main.py --reprog_front skip
-```
-
-6. Visit "demo.ipynb" for inference only demo
+This project is derived from [music-repro](https://github.com/biboamy/music-repro). The purpose of this project is for educational use only.
 
 
 ## AST Reference
