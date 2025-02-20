@@ -102,7 +102,7 @@ if __name__ == "__main__":
     model = load_model(model_path)
 
     # Replace with your audio file path
-    file_path = '/home/yons/文档/CSI_dataset/GTZAN/genres_original/classical/classical.00006.wav'  # Change this to the path to a single audio file
+    file_path = '../data/genres_original/classical/classical.00006.wav'   # Change this to the path to a single audio file
 
     # Predict the genre and compare with the actual label
     predict_and_compare(model, file_path)
